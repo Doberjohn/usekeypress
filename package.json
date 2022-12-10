@@ -2,8 +2,8 @@
   "name": "@johnfanidis/usekeypress",
   "version": "1.0.4",
   "description": "The best keypress hook designed for React",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
