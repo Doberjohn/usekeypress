@@ -14,12 +14,12 @@ $ npm install @johnfanidis/usekeypress
 ## Usage
 
 ```js
-import useKeyPress from "@johnfanidis/usekeypress";
+import index from "@johnfanidis/usekeypress";
 
 const MyComponent = () => {
     
-  // Sets up the hook listening for the 'S' key
-    const pressed_V_Key = useKeyPress(83, true);
+    // Sets up the hook listening for the 'S' key
+    const pressed_V_Key = index(83, true);
 
     useEffect(() => {
         if (pressed_S_Key) {

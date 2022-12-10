@@ -1,6 +1,6 @@
 {
   "name": "@johnfanidis/usekeypress",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Studio VN21",
   "description": "The best keypress hook designed for React",
   "main": "index.js",
