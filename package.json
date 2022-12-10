@@ -1,0 +1,22 @@
+{
+  "name": "@johnfanidis/usekeypress",
+  "version": "1.0.0",
+  "description": "The best keypress hook designed for React",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/jf-react-projects/usekeypress.git"
+  },
+  "author": "Studio VN21",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/jf-react-projects/usekeypress/issues"
+  },
+  "homepage": "https://gitlab.com/jf-react-projects/usekeypress#readme",
+  "dependencies": {
+    "react": "^16.8.0"
+  }
+}
