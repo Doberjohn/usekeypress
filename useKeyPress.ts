@@ -1,16 +1,16 @@
 import React, {useEffect, useState} from "react";
 
-function useKeyPress(targetKey, ctrlRequired) {
-   const [keyPressed, setKeyPressed] = useState(false);
+export const useKeyPress = (targetKey: number, ctrlRequired = false) => {
+   const [keyPressed, setKeyPressed] = useState<boolean>(false);
 
-   function downHandler(e) {
+   function downHandler(e: KeyboardEvent) {
       if (e.ctrlKey) e.preventDefault();
       if (e.keyCode === targetKey) {
          if (!ctrlRequired || (ctrlRequired && e.ctrlKey)) setKeyPressed(true);
       }
    }
 
-   const upHandler = ({ keyCode }) => {
+   const upHandler = ({ keyCode }: {keyCode: number}) => {
       if (keyCode === targetKey) {
          setKeyPressed(false);
       }
@@ -26,5 +26,3 @@ function useKeyPress(targetKey, ctrlRequired) {
    }, []);
    return keyPressed;
 }
-
-export default useKeyPress;

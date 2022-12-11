@@ -3,7 +3,8 @@
   "version": "1.0.6",
   "author": "Studio VN21",
   "description": "The best keypress hook designed for React",
-  "main": "use-key-press.js",
+  "main": "useKeyPress.js",
+  "types": "useKeyPress.d.ts",
   "license": "MIT",
   "peerDependencies": {
     "react": ">= 16.8.0"
@@ -17,5 +18,8 @@
     "react hooks",
     "typescript",
     "npm"
-  ]
+  ],
+  "devDependencies": {
+    "react": "^18.2.0"
+  }
 }
