@@ -1,16 +1,21 @@
 {
   "name": "@johnfanidis/usekeypress",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Studio VN21",
   "description": "The best keypress hook designed for React",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "use-key-press.js",
   "license": "MIT",
-  "dependencies": {
-    "react": "^16.8.0"
+  "peerDependencies": {
+    "react": ">= 16.8.0"
   },
   "repository": {
     "type": "git",
     "url": "https://gitlab.com/jf-react-projects/usekeypress.git"
-  }
+  },
+  "keywords": [
+    "react",
+    "react hooks",
+    "typescript",
+    "npm"
+  ]
 }
